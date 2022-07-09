@@ -4,6 +4,7 @@
 html,body{
     width: 100%;
     height: 100%;
+    background-color: burlywood;
   }
   
   .titulo-pagina{
@@ -17,12 +18,22 @@ html,body{
     margin: 0;
     padding-top: 12px;
   }
-  
+
+  .formulario-usuario{
+    width: 100%;
+    height: 8%;
+    background-color: burlywood;
+    color: brown;
+    padding: 1em;
+    padding-top: 1px;
+  }
+
   .contenedor-tienda{
     padding-top: 3%;
     display: flex;
     width: 100%;
     height: auto;
+    padding: 0.8em;
     justify-content: space-around;
     background-color: rosybrown;
     flex-wrap: wrap;
@@ -30,8 +41,8 @@ html,body{
   
   .card{
   
-    height: 500px;
-    width: 400px;
+    height: 450px;
+    width: 350px;
     margin: 20px 0px;
     display: flex;
     justify-content: center;

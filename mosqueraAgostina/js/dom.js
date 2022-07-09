@@ -6,9 +6,9 @@ for (const fruta of frutas) {
 }
 
 const titulo = document.getElementById("titulo")
-titulo.innerText += " con stock:"
+// titulo.innerText += " con stock:"
 
-titulo.className = "violeta"
+// titulo.className = "violeta"
 
 const otroTitulo = document.getElementById("otroTitulo")
 otroTitulo.innerText += " con stock:"
