@@ -25,19 +25,24 @@ document.getElementById("listaFrutas").append(nuevaFruta);
 frutas[1].remove()
 
 document.getElementById("nombre").value = "Paula";
-document.getElementById("edad").value   = 31;
+document.getElementById("edad").value = 31;
 
 
 let verduras = document.getElementById("verduras");
-let listaVerduras = ["Papa","Batata", "Zanahoria", "Cebolla","Lechuga"];
+let listaVerduras = ["Papa", "Batata", "Zanahoria", "Cebolla", "Lechuga"];
 for (const verdura of listaVerduras) {
     let li = document.createElement("li");
     li.innerHTML = verdura
     verduras.appendChild(li);
 };
 
-let producto = { id: 1,  nombre: "Fideos", precio: 110, marca: "San Agustin" };
-let plantilla   = `${producto.nombre} ${producto.marca} -  $${producto.precio}`;
+let producto = {
+    id: 1,
+    nombre: "Fideos",
+    precio: 110,
+    marca: "San Agustin"
+};
+let plantilla = `${producto.nombre} ${producto.marca} -  $${producto.precio}`;
 
 let nuevoProducto = document.createElement("li");
 nuevoProducto.innerHTML = plantilla;

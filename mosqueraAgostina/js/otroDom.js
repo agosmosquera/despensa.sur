@@ -84,7 +84,12 @@ for (const producto of productos) {
       nombre: productoComprado.tipo,
       precio: productoComprado.precio
     })
-    alert("Agregaste " + productoComprado.tipo + " " + productoComprado.marca + " al carrito!")
+    Swal.fire(
+      'Producto agregado!',
+      'Agregaste ' + productoComprado.tipo + ' ' + productoComprado.marca +  ' al carrito!' ,
+      'success'
+    )
+    // alert("Agregaste " + productoComprado.tipo + " " + productoComprado.marca + " al carrito!")
   }
 
   //Agregamos los elementos creados a su elemento contenedor que es divProducto
