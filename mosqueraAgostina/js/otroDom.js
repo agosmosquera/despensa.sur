@@ -3,49 +3,49 @@ const productos = [{
     tipo: "Fideos",
     marca: "Luccheti",
     precio: 100,
-    img: ""
+    img: "./img/FideosLuccheti.jpg", 
   },
   {
     id: '1',
     tipo: "Fideos",
-    marca: "Madisovi",
+    marca: "Soy arroz",
     precio: 110,
-    img: ""
+    img: "./img/fideosarroz.jpg"
   },
   {
     id: '2',
     tipo: "Arroz",
     marca: "Madisovi",
     precio: 110,
-    img: ""
+    img: "./img/ArrozMadisovi.jpg"
   },
   {
     id: '3',
     tipo: "Arroz",
     marca: "Luccheti",
     precio: 150,
-    img: ""
+    img: "./img/ArrozLuccheti.png"
   },
   {
     id: '4',
     tipo: "Polenta",
-    marca: "Madisovi",
+    marca: "Presto Pronta",
     precio: 160,
-    img: ""
+    img: "./img/polenta.jpg"
   },
   {
     id: '5',
     tipo: "Agua",
     marca: "Bon aqua 2LTS",
     precio: 200,
-    img: ""
+    img: "./img/agua.jpg"
   },
   {
     id: '6',
     tipo: "Gaseosa",
     marca: "Coca Cola",
     precio: 250,
-    img: ""
+    img: "./img/Coca-Cola.jpg"
   },
 ];
 
@@ -64,7 +64,7 @@ for (const producto of productos) {
 
   //Les agregamos los estilos asignandoles clases de css
   divProducto.className = 'card';
-  imgProducto.className = 'card-img-top';
+  imgProducto.className = 'card-img-top imagenEscala';
   nombreProducto.className = 'nombre-producto';
   marcaProducto.className = 'marca-producto';
   precioProducto.className = 'card-precio';
