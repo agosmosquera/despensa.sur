@@ -1,0 +1,51 @@
+[
+    {
+       "id":"0",
+       "tipo":"Fideos",
+       "marca":"Luccheti",
+       "precio":100,
+       "img":"./img/FideosLuccheti.jpg"
+    },
+    {
+       "id":"1",
+       "tipo":"Fideos",
+       "marca":"Soy arroz",
+       "precio":110,
+       "img":"./img/fideosarroz.jpg"
+    },
+    {
+       "id":"2",
+       "tipo":"Arroz",
+       "marca":"Madisovi",
+       "precio":110,
+       "img":"./img/ArrozMadisovi.jpg"
+    },
+    {
+       "id":"3",
+       "tipo":"Arroz",
+       "marca":"Luccheti",
+       "precio":150,
+       "img":"./img/ArrozLuccheti.png"
+    },
+    {
+       "id":"4",
+       "tipo":"Polenta",
+       "marca":"Presto Pronta",
+       "precio":160,
+       "img":"./img/polenta.jpg"
+    },
+    {
+       "id":"5",
+       "tipo":"Agua",
+       "marca":"Bon aqua 2LTS",
+       "precio":200,
+       "img":"./img/agua.jpg"
+    },
+    {
+       "id":"6",
+       "tipo":"Gaseosa",
+       "marca":"Coca Cola",
+       "precio":250,
+       "img":"./img/Coca-Cola.jpg"
+    }
+ ]
