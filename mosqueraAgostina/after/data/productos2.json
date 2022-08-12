@@ -17,7 +17,7 @@
        "id":"2",
        "tipo":"Arroz",
        "marca":"Madisovi",
-       "precio":110,
+       "precio":120,
        "img":"./img/ArrozMadisovi.jpg"
     },
     {
@@ -47,5 +47,61 @@
        "marca":"Coca Cola",
        "precio":250,
        "img":"./img/Coca-Cola.jpg"
-    }
+    },
+    {
+      "id":"7",
+      "tipo":"Leche",
+      "marca":"Ilolay",
+      "precio":190,
+      "img":"./img/ilolay.png"
+   },
+   {
+      "id":"8",
+      "tipo":"Galletas",
+      "marca":"Bagley",
+      "precio":310,
+      "img":"./img/bagley.png"
+   },
+   {
+     "id":"9",
+     "tipo":"Pan Lactal",
+     "marca":"San Alfonso",
+     "precio":200,
+     "img":"./img/panLactal.jpg"
+  },
+  {
+     "id":"10",
+     "tipo":"Energizante",
+     "marca":"Monster",
+     "precio":250,
+     "img":"./img/monster.jpg"
+  },
+  {
+    "id":"11",
+    "tipo":"Lata Gaseosa",
+    "marca":"Coca Cola",
+    "precio":120,
+    "img":"./img/latacoca.jpg"
+ },
+ {
+    "id":"12",
+    "tipo":"Manteca",
+    "marca":"La Paulina",
+    "precio":270,
+    "img":"./img/manteca200.jpg"
+ },
+ {
+   "id":"13",
+   "tipo":"Manteca",
+   "marca":"La Paulina",
+   "precio":180,
+   "img":"./img/manteca100.jpg"
+},
+{
+   "id":"14",
+   "tipo":"Chocolate",
+   "marca":"Cofler",
+   "precio":250,
+   "img":"./img/cofler.jpg"
+}
  ]
