@@ -3,7 +3,7 @@ const productos = [{
     tipo: "Fideos",
     marca: "Luccheti",
     precio: 100,
-    img: "./img/FideosLuccheti.jpg", 
+    img: "./img/FideosLuccheti.jpg",
   },
   {
     id: '1',
@@ -86,7 +86,7 @@ for (const producto of productos) {
     })
     Swal.fire(
       'Producto agregado!',
-      'Agregaste ' + productoComprado.tipo + ' ' + productoComprado.marca +  ' al carrito!' ,
+      'Agregaste ' + productoComprado.tipo + ' ' + productoComprado.marca + ' al carrito!',
       'success'
     )
     // alert("Agregaste " + productoComprado.tipo + " " + productoComprado.marca + " al carrito!")

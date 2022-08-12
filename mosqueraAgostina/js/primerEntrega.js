@@ -59,38 +59,6 @@ function confirmarCompra() {
     }
 }
 
-// function comprarProducto() {
-//     while (confirmarCompra()) {
-//         const productoSeleccionado = prompt("¿Qué desea comprar? \n1) Arroz\n2) Fideos\n3) Polenta");
-//         switch(productoSeleccionado){
-//             case"1":
-//             case"Arroz":
-//             case"ARROZ":
-//             case"arroz":
-//             alert ("Compraste " + producto1.nombre + " de la marca " + producto1.marca + " por $" + producto1.precio );
-//             totalCompra = totalCompra + producto1.precio
-//             break;
-//             case"2":
-//             case"Fideos":
-//             case"FIDEOS":
-//             case"fideos":
-//             alert ("Compraste " + producto2.nombre + " de la marca " + producto2.marca + " por $" + producto2.precio );
-//             totalCompra = totalCompra + producto2.precio
-//             break;
-//             case"3":
-//             case"Polenta":
-//             case"POLENTA":
-//             case"polenta":
-//             alert ("Compraste " + producto3.nombre + " de la marca " + producto3.marca + " por $" + producto3.precio );
-//             totalCompra = totalCompra + producto3.precio
-//             break;
-//             default:
-//                 alert("No seleccionaste ningun producto, gracias por visitarnos.");
-//                 break;
-//         }
-//     }
-//     alert("El total de su compra es: $" + totalCompra);
-// }
 
 function comprarProducto() {
     while (confirmarCompra()) {
